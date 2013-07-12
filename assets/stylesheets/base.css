@@ -15,3 +15,13 @@ body {
   padding: 6px 8px 0 14px;
   margin-bottom: 0px;
 }
+
+@media screen and (max-device-width: 480px) {
+  #calc_button {
+    display: block;
+  }
+  
+  .well {
+    text-align: center;
+  }
+}
