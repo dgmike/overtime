@@ -20,6 +20,9 @@ var Calculator = function() {
   };
 
   return {
+    _timeAsString: function(time) {
+        return timeAsString(time);
+    },
     setBaseTime: function(time){
       window.localStorage.baseTime = time;
       var collection = time.split(/[^0-9]/);
